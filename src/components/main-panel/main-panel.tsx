@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './main-panel-styles.scss'
+import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 
 
 const MainPanel = () => {
@@ -26,8 +27,13 @@ const MainPanel = () => {
 	}
 	return (
 		<div className='main-panel-container'>
-			{error ? <p>Error: {error}</p> : <p>{quote}</p>}
-			<button onClick={getQuote}>New Quote</button>
+			<div className='quote-left-container'><FaQuoteLeft size={60} /></div>
+			<div className='quote-text-container'>{error ? <p className='quote-text'>Error: {error}</p> : <p className='quote-text'>{quote}</p>}</div>
+			<div className='quote-right-container'><FaQuoteRight size={60} /></div>
+			<div className="button" onClick={getQuote}>New Quote</div>
+			{/* <div className="button-container"><button onClick={getQuote}>New Quote</button></div> */}
+
+
 		</div>
 	)
 }
