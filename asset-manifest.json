@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/typescript-quote-generator/static/css/main.6a8f3168.css",
+    "main.js": "/typescript-quote-generator/static/js/main.a68c5479.js",
+    "index.html": "/typescript-quote-generator/index.html",
+    "main.6a8f3168.css.map": "/typescript-quote-generator/static/css/main.6a8f3168.css.map",
+    "main.a68c5479.js.map": "/typescript-quote-generator/static/js/main.a68c5479.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a8f3168.css",
+    "static/js/main.a68c5479.js"
+  ]
+}
